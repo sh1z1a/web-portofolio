@@ -1,0 +1,138 @@
+:root{
+  --mainColor : #fff;
+  --secondaryColor : #C0EEF2;
+  --accsentColor : #537FE7;
+  --fontColor : #181823;
+}
+
+body {
+  background-color: var(--mainColor);
+  min-height: 900px;
+  font-family: 'ubuntu', sans-serif;
+}
+
+section h1{
+  color: var(--fontColor);
+  font-size: 2.5rem;
+}
+
+/* Navbar */
+
+.nav-link.active {
+  color: var(--accsentColor) !important;
+  font-weight: 800;
+}
+
+/* End navbar */
+
+/* Hero */
+
+.color-acent {
+  color: var(--accsentColor);
+}
+
+#hero {
+  color: var(--fontColor);
+  min-height: 100vh;
+}
+
+#hero h1 {
+  font-size: 3rem;
+}
+
+#hero h2 {
+  font-size: 300;
+}
+
+#hero p {
+  font-size: 1.1rem;
+  font-weight: 300;
+}
+
+/* CTA */
+
+.btn-custom1 {
+  background-color: var(--accsentColor);
+  text-align: center;
+  color: #fff;
+  min-width: 150px;
+  height: 45px;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.btn-custom1:hover {
+  box-shadow:  0 0 5px rgba(83, 127, 231, .8);
+}
+
+.cv {
+  color:var(--fontColor);
+  cursor: pointer;
+  font-size: 1.1rem;
+}
+
+.container-hero {
+  display: flex;
+  align-items: center;
+}
+
+.social-icon img{
+  margin-right: 0.5em ;
+  margin-bottom: 10px;
+  position: relative;
+  margin-top: 20;
+}
+
+
+/* End Hero */
+
+/* About */
+
+hr {
+  width: 35%;
+  height: 5px;
+  color: var(--accsentColor);
+  margin: 0 auto;
+  opacity: 100%;
+}
+
+#about {
+  min-height: 300px;
+  width: 100%;
+  background-color: var(--secondaryColor);
+  color: #181823;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  margin-bottom: 80px;
+}
+
+/* End About */
+
+/* Skill */
+
+#skill {
+  min-height: 600px;
+  width: 100%;
+}
+
+#skill img {
+  margin: 10px;
+}
+
+#skill .card {
+  background-color: var(--secondaryColor);
+  height: 340px;
+}
+
+#skill .card:hover {
+  background-color: var(--accsentColor);
+  height: 340px;
+}
+.text-start-custom {
+  text-align: left !important;
+}
+
+.skill-konten{
+  margin-top: 20px;
+}
+/* End Skill */
